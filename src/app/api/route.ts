@@ -10,6 +10,6 @@ export function GET(): NextResponse<HomeRouteInterface> {
   return NextResponse.json({
     message: 'Hello World',
     version: 1,
-    owner: 'Piñata',
+    owner: 'Scio',
   });
 }

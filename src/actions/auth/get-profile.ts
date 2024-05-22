@@ -15,10 +15,14 @@ export const getProfile = async () => {
   }
 
   const profile: User | null = await prisma.user.findFirst({
+    include: {
+      idea: true,
+      post: true,
+    },
     where: {
       id: user?.id,
     },
   });
-
+  console.log(profile);
   return profile;
 };

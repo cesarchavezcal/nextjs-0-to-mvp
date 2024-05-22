@@ -20,7 +20,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:snapshots": "jest --update-snapshot",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "prisma:prepare": "sudo npx prisma generate && sudo npx prisma db push"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [

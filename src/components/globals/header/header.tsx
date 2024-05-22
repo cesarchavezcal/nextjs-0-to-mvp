@@ -17,7 +17,7 @@ export async function Header() {
     <section className="w-full border-b border-solid border-b-border bg-card/5 backdrop-blur-sm">
       <header className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-xl font-bold">🪅 Piñata Template</h1>
+          <h1 className="text-xl font-bold">🪅 Scio Template</h1>
           <Suspense fallback={<UserSkeleton />}>
             <div className="flex items-center">
               <UserPopover>

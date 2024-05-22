@@ -1,0 +1,5 @@
+npm run build
+
+npm install --legacy-peer-deps
+
+18.x

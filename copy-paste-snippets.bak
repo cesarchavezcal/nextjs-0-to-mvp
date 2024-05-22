@@ -1,0 +1,36 @@
+export default function Layout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <section>{children}</section>
+  );
+}
+
+
+
+export default async function Page() {
+  return (
+      <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+        New Page
+      </main>
+  );
+}
+
+export default async function Loading() {
+  return (
+      <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+        I'm loading!!!!!
+      </main>
+  );
+}
+
+'use client'
+export default function Error() {
+  return (
+      <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+      Ups something goes wrong!
+      </main>
+  );
+}

@@ -38,7 +38,7 @@ export default function SignIn() {
           <CardDescription>Please sign in to continue.</CardDescription>
         </CardHeader>
         <CardContent>
-          <Button variant={'outline'} onClick={() => signIn('google', { callbackUrl: '/' })}>
+          <Button variant={'default'} onClick={() => signIn('google', { callbackUrl: '/' })}>
             Sign In With Google
           </Button>
         </CardContent>
